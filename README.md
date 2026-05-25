@@ -1,38 +1,68 @@
 # NOBL-Sort
 Sort NOBL by Dividend Yield old program not tested since run long time ago
 
-## Old run output
-!pip install yfinance
-
-import yfinance as yf
-
-def sort_by_dividend_yield(tickers):
-  # Retrieve financial data for each stock
-  stock_data = {}
-  for ticker in tickers:
-    try:
-      stock_info = yf.Ticker(ticker).info
-    except:
-      print('error1')
-    if stock_info is not None:
-      try:
-        stock_data[ticker] = stock_info['dividendYield']
-      except:
-        print('error2')
-
-  # Sort the stocks by dividend yield
-  sorted_stocks = sorted(stock_data.items(), key=lambda x: x[1], reverse=True)
-
-  # Extract the tickers from the sorted list
-  sorted_tickers = [ticker for ticker, dividend_yield in sorted_stocks]
-
-  return sorted_stocks
-
-# Test the function with the sample array
-tickers = ['ALB', 'BRO', 'TGT', 'ESS', 'MDT', 'SYY', 'NUE', 'ECL', 'VFC', 'SWK', 'WST', 'MMM', 'CLX', 'HRL', 'ADP', 'BF-B', 'GD', 'GPC', 'WMT', 'PEP', 'JNJ', 'MCD', 'CINF', 'ADM', 'CVX', 'XOM', 'TROW', 'CAH', 'AMCR', 'GWW', 'LOW', 'IBM', 'DOV', 'ABBV', 'WBA', 'O', 'FRT', 'CHD', 'CB', 'CL', 'ITW', 'ATO', 'KO', 'PNR', 'SPGI', 'MKC', 'CTAS', 'EXPD', 'ABT', 'SHW', 'BDX', 'AOS', 'ED', 'PPG', 'NEE', 'EMR', 'BEN', 'AFL', 'ROP', 'LIN', 'KMB', 'PG', 'CAT', 'APD']
-sorted_stocks = sort_by_dividend_yield(tickers)
-
-# Print each ticker and its dividend yield on a separate line
-for ticker, dividend_yield in sorted_stocks:
-  print(f"{ticker}: {dividend_yield}")
-
+Old Data:
+VFC: 0.0739
+WBA: 0.0514
+MMM: 0.0497
+O: 0.047
+IBM: 0.0468
+BEN: 0.045500003
+TROW: 0.044
+FRT: 0.0428
+SWK: 0.042600002
+ESS: 0.041500002
+AMCR: 0.040799998
+ABBV: 0.0366
+MDT: 0.035
+KMB: 0.0342
+CLX: 0.0336
+ED: 0.0332
+XOM: 0.033
+CVX: 0.031600002
+TGT: 0.029000001
+KO: 0.0277
+CINF: 0.026500002
+ATO: 0.026400002
+SYY: 0.0256
+JNJ: 0.0256
+PEP: 0.0255
+CAH: 0.0255
+HRL: 0.0241
+PG: 0.0241
+CL: 0.0239
+ITW: 0.0238
+AFL: 0.0234
+MCD: 0.0231
+EMR: 0.0217
+LOW: 0.0211
+AOS: 0.021
+APD: 0.021
+ADP: 0.0209
+GPC: 0.020599999
+GD: 0.020299999
+NEE: 0.020299999
+CAT: 0.02
+PPG: 0.0197
+PNR: 0.0196
+MKC: 0.0188
+ABT: 0.0186
+ADM: 0.0172
+WMT: 0.015800001
+NUE: 0.0155
+CB: 0.015
+DOV: 0.0149
+ECL: 0.0146
+BDX: 0.0143
+LIN: 0.0143
+CHD: 0.012999999
+EXPD: 0.0128999995
+BF-B: 0.0125
+GWW: 0.0124
+SPGI: 0.010199999
+SHW: 0.0101
+CTAS: 0.0093
+BRO: 0.0081
+ALB: 0.0073
+ROP: 0.0063
+WST: 0.0032

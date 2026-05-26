@@ -1,0 +1,70 @@
+Ticker,Company Name,Current Price,Trailing Annual Dividend Rate,Dividend Yield %,Source Note
+AMCR,Amcor plc,38.38,2.588,6.74,calculated as trailing annual dividend rate / current price
+HRL,Hormel Foods Corporation,21.24,1.163,5.48,calculated as trailing annual dividend rate / current price
+CLX,The Clorox Company,95.11,4.96,5.22,calculated as trailing annual dividend rate / current price
+O,Realty Income Corporation,62.02,3.234,5.21,calculated as trailing annual dividend rate / current price
+KMB,Kimberly-Clark Corporation,99.14,5.06,5.1,calculated as trailing annual dividend rate / current price
+TROW,"T. Rowe Price Group, Inc.",103.39,5.11,4.94,calculated as trailing annual dividend rate / current price
+KVUE,Kenvue Inc.,17.53,0.828,4.72,calculated as trailing annual dividend rate / current price
+ES,Eversource Energy,70.0,3.045,4.35,calculated as trailing annual dividend rate / current price
+SWK,"Stanley Black & Decker, Inc.",76.46,3.31,4.33,calculated as trailing annual dividend rate / current price
+GPC,Genuine Parts Company,97.87,4.153,4.24,calculated as trailing annual dividend rate / current price
+SJM,The J. M. Smucker Company,103.36,4.38,4.24,calculated as trailing annual dividend rate / current price
+BEN,"Franklin Resources, Inc.",31.02,1.3,4.19,calculated as trailing annual dividend rate / current price
+MKC,"McCormick & Company, Incorporated",47.8,1.83,3.83,calculated as trailing annual dividend rate / current price
+PEP,"PepsiCo, Inc.",150.57,5.69,3.78,calculated as trailing annual dividend rate / current price
+FRT,Federal Realty Investment Trust,119.75,4.49,3.75,calculated as trailing annual dividend rate / current price
+ESS,"Essex Property Trust, Inc.",276.7,10.3,3.72,calculated as trailing annual dividend rate / current price
+TGT,Target Corporation,125.6,4.54,3.61,calculated as trailing annual dividend rate / current price
+CVX,Chevron Corporation,191.43,6.91,3.61,calculated as trailing annual dividend rate / current price
+MDT,Medtronic plc,78.6,2.83,3.6,calculated as trailing annual dividend rate / current price
+BF-B,Brown-Forman Corporation,26.2,0.911,3.48,calculated as trailing annual dividend rate / current price
+ED,"Consolidated Edison, Inc.",108.54,3.438,3.17,calculated as trailing annual dividend rate / current price
+ABBV,AbbVie Inc.,215.7,6.74,3.12,calculated as trailing annual dividend rate / current price
+PG,The Procter & Gamble Company,144.44,4.227,2.93,calculated as trailing annual dividend rate / current price
+ADP,"Automatic Data Processing, Inc.",225.31,6.48,2.88,calculated as trailing annual dividend rate / current price
+BDX,"Becton, Dickinson and Company",147.63,4.18,2.83,calculated as trailing annual dividend rate / current price
+SYY,Sysco Corporation,76.29,2.16,2.83,calculated as trailing annual dividend rate / current price
+ABT,Abbott Laboratories,87.41,2.44,2.79,calculated as trailing annual dividend rate / current price
+IBM,International Business Machines Corporation,253.84,6.72,2.65,calculated as trailing annual dividend rate / current price
+ADM,Archer-Daniels-Midland Company,77.52,2.05,2.64,calculated as trailing annual dividend rate / current price
+NEE,"NextEra Energy, Inc.",88.55,2.323,2.62,calculated as trailing annual dividend rate / current price
+XOM,Exxon Mobil Corporation,154.92,4.04,2.61,calculated as trailing annual dividend rate / current price
+PPG,"PPG Industries, Inc.",107.78,2.81,2.61,calculated as trailing annual dividend rate / current price
+MCD,McDonald's Corporation,282.27,7.26,2.57,calculated as trailing annual dividend rate / current price
+KO,The Coca-Cola Company,81.48,2.06,2.53,calculated as trailing annual dividend rate / current price
+ERIE,Erie Indemnity Company,224.23,5.655,2.52,calculated as trailing annual dividend rate / current price
+ITW,Illinois Tool Works Inc.,252.2,6.33,2.51,calculated as trailing annual dividend rate / current price
+APD,"Air Products and Chemicals, Inc.",289.47,7.18,2.48,calculated as trailing annual dividend rate / current price
+AOS,A. O. Smith Corporation,57.28,1.4,2.44,calculated as trailing annual dividend rate / current price
+CL,Colgate-Palmolive Company,90.61,2.08,2.3,calculated as trailing annual dividend rate / current price
+LOW,"Lowe's Companies, Inc.",215.03,4.8,2.23,calculated as trailing annual dividend rate / current price
+JNJ,Johnson & Johnson,234.34,5.2,2.22,calculated as trailing annual dividend rate / current price
+CINF,Cincinnati Financial Corporation,168.1,3.55,2.11,calculated as trailing annual dividend rate / current price
+ATO,Atmos Energy Corporation,177.81,3.74,2.1,calculated as trailing annual dividend rate / current price
+FAST,Fastenal Company,43.94,0.9,2.05,calculated as trailing annual dividend rate / current price
+AFL,Aflac Incorporated,117.86,2.35,1.99,calculated as trailing annual dividend rate / current price
+FDS,FactSet Research Systems Inc.,232.0,4.4,1.9,calculated as trailing annual dividend rate / current price
+GD,General Dynamics Corporation,342.89,6.09,1.78,calculated as trailing annual dividend rate / current price
+EMR,Emerson Electric Co.,136.42,2.165,1.59,calculated as trailing annual dividend rate / current price
+CHRW,"C.H. Robinson Worldwide, Inc.",174.23,2.5,1.43,calculated as trailing annual dividend rate / current price
+PNR,Pentair plc,74.82,1.02,1.36,calculated as trailing annual dividend rate / current price
+CHD,"Church & Dwight Co., Inc.",96.25,1.198,1.24,calculated as trailing annual dividend rate / current price
+CB,Chubb Limited,327.89,3.88,1.18,calculated as trailing annual dividend rate / current price
+LIN,Linde plc,517.58,6.1,1.18,calculated as trailing annual dividend rate / current price
+NDSN,Nordson Corporation,289.9,3.24,1.12,calculated as trailing annual dividend rate / current price
+BRO,"Brown & Brown, Inc.",57.82,0.63,1.09,calculated as trailing annual dividend rate / current price
+ECL,Ecolab Inc.,253.32,2.76,1.09,calculated as trailing annual dividend rate / current price
+ROP,"Roper Technologies, Inc.",326.94,3.47,1.06,calculated as trailing annual dividend rate / current price
+SHW,The Sherwin-Williams Company,309.08,3.17,1.03,calculated as trailing annual dividend rate / current price
+CAH,"Cardinal Health, Inc.",200.68,2.043,1.02,calculated as trailing annual dividend rate / current price
+CTAS,Cintas Corporation,172.93,1.74,1.01,calculated as trailing annual dividend rate / current price
+DOV,Dover Corporation,209.9,2.075,0.99,calculated as trailing annual dividend rate / current price
+EXPD,"Expeditors International of Washington, Inc.",158.48,1.54,0.97,calculated as trailing annual dividend rate / current price
+NUE,Nucor Corporation,232.0,2.22,0.96,calculated as trailing annual dividend rate / current price
+ALB,Albemarle Corporation,171.58,1.62,0.94,calculated as trailing annual dividend rate / current price
+SPGI,S&P Global Inc.,417.6,3.85,0.92,calculated as trailing annual dividend rate / current price
+WMT,Walmart Inc.,120.27,0.953,0.79,calculated as trailing annual dividend rate / current price
+GWW,"W.W. Grainger, Inc.",1247.79,9.04,0.72,calculated as trailing annual dividend rate / current price
+CAT,Caterpillar Inc.,879.89,6.04,0.69,calculated as trailing annual dividend rate / current price
+WST,"West Pharmaceutical Services, Inc.",316.42,0.86,0.27,calculated as trailing annual dividend rate / current price

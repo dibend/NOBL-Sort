@@ -1,5 +1,3 @@
-!pip install yfinance
-
 import yfinance as yf
 
 def sort_by_dividend_yield(tickers):
